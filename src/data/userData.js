@@ -7,5 +7,5 @@ export const userData = {
     bloodGroup: "O+",
     gender: "Female",
     address: "123 Main St, City, Country",
-    interests: ["Coding", "Reading"]
+    interests: ["Coding"]
 };
