@@ -1,0 +1,35 @@
+fields:
+  firstname:
+    label: "First Name"
+    type: "textfield"
+    placeholder: "Enter your first name"
+  email:
+    label: "Email Address"
+    type: "readonly"
+  mobile:
+    label: "Mobile Number"
+    type: "tel"
+    placeholder: "Enter 10-digit mobile number"
+    maxLength: 10
+  dob:
+    label: "Date of Birth"
+    type: "date"
+  age:
+    label: "Age"
+    type: "textfield"
+  bloodGroup:
+    label: "Blood Group"
+    type: "dropdown"
+    options: ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"]
+  gender:
+    label: "Gender"
+    type: "radio"
+    options: ["Male", "Female", "Other"]
+  address:
+    label: "Address"
+    type: "textarea"
+    placeholder: "Enter your full address"
+  interests:
+    label: "Interests"
+    type: "multiple_choice"
+    options: ["Coding", "Reading", "Traveling", "Gaming"]
